@@ -1120,7 +1120,7 @@ sleep 2
 echo
 echo "检查安装环境"
 safe
-yum -y install curl wget openssl >/dev/null 2>&1
+yum -y install curl wget openssl mlocate htop vim lrzsz ss unzip lsof >/dev/null 2>&1
 host=https://github.com/hongluoluo/fast/blob/master/
 logo
 }
